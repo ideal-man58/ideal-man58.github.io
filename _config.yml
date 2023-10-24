@@ -105,9 +105,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "이형"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "흥미 위주로 공부하는 예비 개발자"
   location         : "Somewhere"
   email            :
   links:
@@ -125,7 +125,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/ideal-man58"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
