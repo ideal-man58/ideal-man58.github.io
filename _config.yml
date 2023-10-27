@@ -286,8 +286,14 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: tag
+      author_profile: true
+  - scope:
+      path: "
+      type: category
