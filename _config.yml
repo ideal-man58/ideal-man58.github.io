@@ -287,7 +287,6 @@ defaults:
     values:
       layout: single
       read_time: true
-      comments: true
       share: true
       related: true
   - scope:
@@ -297,3 +296,5 @@ defaults:
   - scope:
       path: "
       type: category
+  - values:
+      comments: true
