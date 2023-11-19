@@ -106,9 +106,9 @@ analytics:
 # Site Author
 author:
   name             : "이형"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/120593942?s=400&u=d8be6526018af4998397bd190d135aa841bede00&v=4"
   bio              : "흥미 위주로 공부하는 학생 개발자"
-  location         : "Somewhere"
+  location         : "South Korea"
   email            : "tubs5840@naver.com"
   links:
     - label: "Email"
