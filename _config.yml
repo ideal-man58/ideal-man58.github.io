@@ -15,25 +15,25 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "이형의 개발블로그"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Orice pas mic este un pas înainte"
 name                     : "ideal-man58"
-description              : "흥미 위주로 공부하는 학생생 개발자"
+description              : "흥미 위주로 공부하는 학생 개발자"
 url                      : "https://ideal-man58.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/ideal-man58.jpeg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 future                   : true
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "ideal-man58"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "이형"
-  avatar           : "https://avatars.githubusercontent.com/u/120593942?s=400&u=d8be6526018af4998397bd190d135aa841bede00&v=4"
+  avatar           : #"https://avatars.githubusercontent.com/u/120593942?s=400&u=d8be6526018af4998397bd190d135aa841bede00&v=4"
   bio              : "흥미 위주로 공부하는 학생 개발자"
   location         : "South Korea"
   email            : "tubs5840@naver.com"
@@ -291,3 +291,6 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y. %m. %d"
