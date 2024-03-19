@@ -32,9 +32,9 @@ sidebar-category:
         category: "algorithm"
   - title: PROJECT
     children:
-      - title: "Rabbitrush"
-        url: "/rabbit-rush"
-        category: "rabbit-rush"
+      - title: "Rabbitrush 2D"
+        url: "/rabbitrush 2d"
+        category: "rabbitrush 2d"
 
 
   # - title: "About"
