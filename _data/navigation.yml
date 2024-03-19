@@ -33,7 +33,7 @@ sidebar-category:
   - title: PROJECT
     children:
       - title: "Rabbitrush"
-        url: "/rabbitrush"
+        url: "/rabbit-rush"
         category: "rabbitrush"
 
 

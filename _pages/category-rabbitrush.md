@@ -1,7 +1,7 @@
 ---
 title: "rabbitrush"
 layout: archive
-permalink: /rabbitrush
+permalink: /rabbit-rush
 author_profile: true
 sidebar:
     nav: "sidebar-category"
