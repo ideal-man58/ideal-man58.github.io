@@ -2,6 +2,8 @@
 main:
   - title: "About"
     url: /about
+  - title: "Category"
+    url: /categories/
 sidebar-category:
   - title: FRONTEND
     children:
@@ -33,8 +35,8 @@ sidebar-category:
   - title: PROJECT
     children:
       - title: "Rabbitrush 2D"
-        url: "/rabbitrush 2d"
-        category: "rabbitrush 2d"
+        url: "/rabbitrush_2d"
+        category: "rabbitrush_2d"
 
 
   # - title: "About"

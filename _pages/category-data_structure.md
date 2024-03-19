@@ -1,10 +1,10 @@
 ---
-title: "rabbitrush 2d"
+title: "data structure"
 layout: archive
-permalink: /rabbitrush 2d
+permalink: /data_structure
 author_profile: true
 sidebar:
     nav: "sidebar-category"
 ---
-{% assign posts = site.categories.rabbitrush 2d %}
+{% assign posts = site.categories.data_structure %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
