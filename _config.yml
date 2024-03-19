@@ -23,7 +23,7 @@ name                     : "ideal-man58"
 description              : "흥미 위주로 공부하는 학생 개발자"
 url                      : "https://ideal-man58.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ideal-man58/ideal-man58.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ideal-man58.jpeg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title

@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about
-  - title: "Category"
-    url: /categories/
 sidebar-category:
   - title: FRONTEND
     children:
