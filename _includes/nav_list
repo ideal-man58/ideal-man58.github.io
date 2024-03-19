@@ -1,4 +1,5 @@
 {% assign navigation = site.data.navigation[include.nav] %}
+{% assign sum = site.posts | size %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
@@ -16,7 +17,14 @@
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}
-            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+
+          {% assign post_cnt = 0 %}
+          {% for category in site.categories %}
+            {% if category[0] == child.category %}
+              {% assign post_cnt = category[1].size %}
+            {% endif %}
+          {% endfor %}
+            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ post_cnt }})</a></li>
           {% endfor %}
         </ul>
         {% endif %}
@@ -24,3 +32,5 @@
     {% endfor %}
   </ul>
 </nav>
+
+<li> 전체 게시글 수 : ({{sum}}) </li>
