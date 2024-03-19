@@ -34,7 +34,7 @@ sidebar-category:
     children:
       - title: "Rabbitrush"
         url: "/rabbit-rush"
-        category: "rabbitrush"
+        category: "rabbit-rush"
 
 
   # - title: "About"
